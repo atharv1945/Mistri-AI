@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.env
+venv/
+env/
+.venv/
+.kiro/
+test/
+# Vector store (generated files)
+data/vector_store/
+
+# Keep error codes CSV
+!data/error_codes/*.csv

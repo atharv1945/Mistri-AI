@@ -1,0 +1,12 @@
+Error_Code,Error_Name,Description_Cause
+IE,WATER INLET ERROR,Correct water level (24.6kHz) is not reached within 8 minutes after water is supplied or it does not reach the preset water level within 20 minutes.
+UE,UNBALANCE ERROR,The load is too small. The appliance is tilted. Laundry is gathered to one side. Non-distributable things are put into the drum.
+DE,DRAIN ERROR,Not fully drained within 10 minutes.
+FE,OVERFLOW ERROR,Water is overflowing (water level frequency is over 21.3kHz). If FE is displayed the drain pump will operate to drain the water automatically.
+PE,PRESSURE SENSOR ERROR,The PRESSURE SENSOR ASSEMBLY is out of order. When water level frequency is consistently below 10 kHz or over 30 kHz.
+dE / dE1 / dE2,DOOR OPEN ERROR,Door not all the way closed. Loose electrical connections at door switch and PWB Assembly. The DOOR SWITCH ASSEMBLY is out of order.
+LE,HEATING ERROR,The THERMISTOR is out of order.
+LE,LOCKED MOTOR ERROR,The connector (3-pin male white) in the MOTOR HARNESS is not connected to the connector of STATOR ASSEMBLY. Bad or unstable electric contact between connectors. MOTOR HARNESS is cut (open circuited).
+EE,EEPROM ERROR,EEPROM is out of order. Displayed only when the START/PAUSE button is first pressed in the Load Test Mode.
+PF,POWER FAILURE,Power supply interruption while machine is working.
+Sud,Suds Error,If the washing machine detects too many suds it displays this error code and adds Suds Reducing cycle.
